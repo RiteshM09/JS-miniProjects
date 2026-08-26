@@ -1,0 +1,122 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+h2{
+    margin:1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    flex-direction: column;
+}
+
+/* The switch container */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide the default checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The sliding track */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  /* The moving circle (knob) */
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  /* Change background when checked */
+  input:checked + .slider {
+    background-color: rgb(44, 158, 120);
+  }
+  
+  /* Slide the knob right when checked */
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+/* color's */
+#colors{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100px; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+button{
+  height: 50px;
+  width: 100px;
+  padding: 10px;
+  border: 2px solid rgb(175, 161, 161);
+  border-radius:50px;
+  font-size: 1.3rem;
+  margin: 5px;
+  padding: 7px;
+  transition: transform 0.1s ease, background-color 0.2s ease;
+}
+button:hover {
+  filter: brightness(0.85);
+}
+button:active {
+  transform: scale(0.95);
+}
+
+/* classes for button text's */
+#colors.dark button {
+  color: #ffffff;
+}
+#colors.light button {
+  color:rgb(3, 2, 2);
+}
+/* media */
+
+@media screen and (min-width:768px) {
+    body{
+        font-size: 1.75rem;
+    }
+    .color{
+      
+      font-size: 2rem;
+      height: 60px;
+      width: 150px;
+    }
+}
+
