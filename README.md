@@ -8,8 +8,8 @@ Here is the directory of my projects. You can click the links under the **Live D
 
 | # | Project Name | Key Skills Practiced | Live Demo |
 |---|---|---|---|
-| 01 | 💬 Random Quote Generator | DOM Manipulation, Arrays, Preventing Layout Shifts | [Launch App ↗](https://github.com/RiteshM09/JS-miniProjects/tree/main/02-theme-changer) |
-| 02 | 🌓 Changing Theme | JS Class List, Event Object, DOM Event Handling | [Launch App ↗]() |
+| 01 | 💬 Random Quote Generator | DOM Manipulation, Arrays, Preventing Layout Shifts | [Launch App ↗](https://github.com/RiteshM09/JS-miniProjects/tree/main/01-random-quote-generator) |
+| 02 | 🌓 Changing Theme | JS Class List, Event Object, DOM Event Handling | [Launch App ↗](https://github.com/RiteshM09/JS-miniProjects/tree/main/02-theme-changer) |
 | 03 | 🔢 Project 3 (Coming Soon) |
 
 ---
