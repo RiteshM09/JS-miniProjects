@@ -1,6 +1,6 @@
 # 🚀 Beginner JavaScript Projects Portfolio
 
-Welcome! This repository tracks my journey learning front-end web development. Every project here is built using fundamental web technologies: plain **HTML5**, **CSS3**, and **Vanilla JavaScript**—no heavy frameworks or external libraries.
+Welcome! This repository tracks my journey learning front-end web development. Every project here is built using fundamental web technologies: plain **HTML5**, **CSS3**, and **JavaScript**—no heavy frameworks or external libraries.
 
 ## 🗂️ Project Roadmap & Live Links
 
