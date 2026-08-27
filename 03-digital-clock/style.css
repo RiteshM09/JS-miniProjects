@@ -38,13 +38,13 @@ body{
 }
 @media (min-width: 768px) {
     .parent {
-        min-width: 450px;       /*for larger screens */
-        padding: 40px 60px;    
-        border-radius: 25px;   
+        max-width: 500px;       
+        padding: 40px 60px;  
+        border-radius: 25px;  
     }
     
     .clock {
-        font-size: 4.5rem;    
-        letter-spacing: 6px;  
+        font-size: 3.5rem;     
+        letter-spacing: 4px;  
     }
 }
