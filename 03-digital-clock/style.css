@@ -36,3 +36,15 @@ body{
     text-shadow: 0 0 10px rgba(1, 4, 4, 0.5),
                  0 0 20px rgba(0, 255, 204, 0.3);
 }
+@media (min-width: 768px) {
+    .parent {
+        min-width: 450px;       /*for larger screens */
+        padding: 40px 60px;    
+        border-radius: 25px;   
+    }
+    
+    .clock {
+        font-size: 4.5rem;    
+        letter-spacing: 6px;  
+    }
+}
