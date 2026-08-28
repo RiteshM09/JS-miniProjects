@@ -11,7 +11,7 @@ Here is the directory of my projects. You can click the links under the **Live D
 | 01 | 💬 Random Quote Generator | DOM Manipulation, Arrays, Preventing Layout Shifts | [Launch App ↗](https://riteshm09.github.io/JS-miniProjects//01-random-quote-generator/) |
 | 02 | 🌓 Changing Theme | JS Class List, Event Object, DOM Event Handling | [Launch App ↗](https://riteshm09.github.io/JS-miniProjects//02-theme-changer/) |
 | 03 | 🕒 Digital Clock | JavaScript Date Object, setInterval, Time Formatting | [Launch App ↗](https://riteshm09.github.io/JS-miniProjects/03-digital-clock/) |
-| 04 | 📝 Project 4 (Coming Soon) | Coming Soon | Coming Soon |
+| 04 | 📝 Project 4 (Event Countdown timer) | Coming Soon | Coming Soon |
 
 ---
 
