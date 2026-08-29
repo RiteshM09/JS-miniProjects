@@ -13,7 +13,7 @@ Here is the directory of my projects. You can click the links under the **Live D
 | 03 | 🕒 Digital Clock | JavaScript Date Object, setInterval, Time Formatting | [Launch App ↗](https://riteshm09.github.io/JS-miniProjects/03-digital-clock/) |
 | 04 | 📝 Project 4 (Event Countdown timer) | Coming Soon | Coming Soon |
 
----
+--- 
 
 ## 🛠️ How to Run These Projects Locally
 
