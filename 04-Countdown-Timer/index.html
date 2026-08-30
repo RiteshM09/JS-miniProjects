@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent">
+        <div id="simpleInfo" style="color: #d94646; margin-bottom: 20px;">
+            <h3>⏱️ Live Countdown Timer</h3>
+            <p>ticking countdown! Simply enter your event name and pick a future date below and watch count down live in real-time.</p>
+        </div>
+        <form id="form"><br>
+            <h1>Event Countdown</h1><br>
+            <label for="name">Event Name:</label><br>
+            <input type="text" id="name" placeholder="eg.. birthday" value="New Year"  maxlength="25" required><br><br>
+
+            <label for="futureDate">Set Event date:</label><br>
+            <input type="date" id="futureDate" title="enter future event date" required>
+
+            <button class="submit">Submit</button>
+        </form>
+        <div class="glass-card" id="outer">
+            <p id="displayEvent"></p>
+            <h2 id="countdown"></h2>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>

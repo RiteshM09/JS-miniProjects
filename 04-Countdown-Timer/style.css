@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: rgb(251, 250, 250);
+}
+
+
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#form{
+    height: 55%;
+    border: 5px solid rgba(17, 16, 17, 0.222);
+    padding: 10px;
+    margin: 1.5rem;
+    background-color: rgba(149, 22, 223, 0.444);
+}
+form h1{
+    margin-bottom: 1rem;
+    font-size:1.7rem;
+    background-color:initial;
+    color: rgb(118, 56, 250);
+}
+
+label{
+    /* background-color: inherit; */
+    padding:5px;
+    width:max-content;
+    font-family: monospace;
+    color:rgba(50, 186, 235, 0.948);
+    font-size: 1rem;
+    font-weight: 600;
+}
+input{
+    background-color: white;
+    color:black;
+    font-size: 1.5rem;
+}
+
+button {
+    margin-top:15px ;
+    font-family: monospace;
+    width: 80%;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: #b82435;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover{
+    background-color: #b8243577;
+    color: #3b090f;
+}
+p{
+    font-size:2rem;
+}
+
+#simpleInfo p{
+    background-color: rgb(182, 57, 40);
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+}
+
+
+.glass-card {
+    background: rgba(218, 202, 202, 0.03);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 2px solid rgba(233, 224, 224, 0.694);
+    border-radius: 24px;
+    padding: 40px 30px;
+    margin: 25px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(222, 136, 233, 0.3);
+    overflow: hidden;
+    animation: fadeIn 0.5s ease-out-back;
+}
+.glass-card p{
+    color:rgb(170, 109, 228);
+    font-family:monospace;
+   
+}
+
+#simpleInfo{
+    font-size:1.2rem;
+    margin: 10px;
+    padding: 5px;
+}
+
+#simpleInfo p{
+    font-size:0.8rem ;
+    padding: 5px;
+}
+/* tablet and desktop screens */
+@media screen and (min-width:768px){
+    
+    #simpleInfo{
+        font-size:2rem;
+        margin: 10px;
+        padding: 5px;
+    }
+    
+    #simpleInfo p{
+        font-size:1.3rem ;
+        padding: 5px;
+    }
+        
+    #form{
+        height: 60%;
+        border: 10px solid rgba(17, 16, 17, 0.222);
+        padding: 20px;
+        margin: 2rem;
+        background-color: rgba(149, 22, 223, 0.444);
+    }
+    #form h1{
+        font-size: 2.5rem;
+    }
+    #form input{
+        /* margin-bottom: 20px; */
+        margin:10px;
+    }
+    #form label{
+        margin:10px;
+    }
+    button{
+        width: 80%;
+        height: 50px;
+        padding: 10px;
+        margin: 40px 10px;
+    }
+    
+}
+
+
+/* Responsive adjustments for screens smaller than 585px */
+@media (max-width: 585px) {
+    .glass-card {
+        padding: 20px 15px;      /* Reduces large padding so card fits small screens */
+        margin: 10px;            /* Adds safety gap near screen walls */
+        border-radius: 16px;     /* Smooths down corners on mobile */
+    }
+
+    .glass-card p, 
+    #countdown {
+        font-size: 1rem !important; /* Lowers typography scaling to keep rows unified */
+        line-height: 1.4;
+    }
+}
