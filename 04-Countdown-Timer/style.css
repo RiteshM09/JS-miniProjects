@@ -5,7 +5,7 @@
    
 }
 body {
-    background-color: rgba(0, 0, 0, 0.875);
+    background-color: rgba(0, 0, 0, 0.908);
     color: rgb(251, 250, 250);
     font-family: system-ui, -apple-system, sans-serif;
     min-height: 100vh;
@@ -79,9 +79,11 @@ p{
 }
 
 #simpleInfo p{
-    background-color: rgba(182, 57, 40, 0.877);
+    /* background-color: rgba(120, 205, 185, 0.162); */
     font-family:'Arial Narrow Bold', sans-serif;
-    font-size: 1rem;
+    background-color:#ca373775 ;
+    font-size:0.8rem ;
+    padding: 5px;
 }
 
 
@@ -110,11 +112,10 @@ p{
     margin: 10px;
     padding: 5px;
 }
-
-#simpleInfo p{
-    font-size:0.8rem ;
-    padding: 5px;
+#simpleInfo h3{
+    color:rgba(255, 255, 255, 0.822);
 }
+
 /* tablet and desktop screens */
 @media screen and (min-width:768px){
     
