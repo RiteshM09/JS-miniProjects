@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
 body {
     background-color: rgba(0, 0, 0, 0.875);
@@ -12,13 +13,13 @@ body {
 
 
 .parent{
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     
-    padding: 15px;
     height: 100vh;
+    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,11 +27,11 @@ body {
 }
 #form{
     height: 55%;
-     width: 90%;   
     border: 5px solid rgba(17, 16, 17, 0.222);
     padding: 10px;
     margin: 1.5rem;
     background-color: rgba(149, 22, 223, 0.444);
+    
 }
 form h1{
     margin-bottom: 1rem;
@@ -60,7 +61,7 @@ button {
     width: 80%;
     padding: 10px;
     margin-top: 40px;
-    background-color: #b82435;
+    background-color: #c32537;
     color: white;
     border: none;
     border-radius: 6px;
@@ -165,7 +166,7 @@ p{
 
     .glass-card p, 
     #countdown {
-        font-size: 1rem !important; /* Lowers typography scaling to keep rows unified */
+        font-size: 1rem; /* Lowers typography scaling to keep rows unified */
         line-height: 1.4;
     }
 }
