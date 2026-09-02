@@ -27,8 +27,11 @@ function FormSubmission(e){
      clearInterval(timerInterval);
 
     //get EVENT time(in ms) from event date
- // Adding T00:00 forces JS to treat the form date as a local time(12:00) not indian IST 5:30
-    const eventDateInMs = new Date(eventDate.value + "T00:00").getTime(); 
+    // const eventDateInMs = new Date(eventDate.value).getTime(); 
+    // Adding T00:00 forces JS to treat the form date as a local time not indian IST 5:30
+const eventDateInMs = new Date(eventDate.value + "T00:00").getTime(); 
+     
+
     console.log(eventDateInMs);
     
     
@@ -61,6 +64,7 @@ function FormSubmission(e){
         if (timediff <= 0) {
             display.textContent = formName.value;
             clearInterval(timerInterval); 
+            // return;
         }
 
         // card style 
@@ -79,8 +83,8 @@ function FormSubmission(e){
 
             // console.log(eventDate.value);
             countdownDisplay.textContent = day + "days " + hr + "hr " + min + "min " + sec + "s remaining";
-          
-        }else if(eventDate.value===currentDate){
+        }
+        else if(eventDate.value===currentDate){
             // event occure
             formContent.style.display = "none";
             display.textContent = "Hurray 🎉 Time's up! ";
@@ -94,6 +98,5 @@ function FormSubmission(e){
     },1000);
    
 }
-// 
-formMain.addEventListener('submit',FormSubmission);
 
+formMain.addEventListener('submit',FormSubmission);
