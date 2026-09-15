@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    background-color: rgb(22, 22, 46);
+}
+body:hover{
+    cursor: pointer;
+}
+.box1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    background-color: red;
+    color: rgb(58, 123, 235);
+    overflow: hidden;
+    /* forwards will hide animation at end, no need to remove using js */
+    animation:animate 4s forwards;
+    border-radius: 50px;
+}
+@keyframes animate {
+    0%{
+        transform: scale(0.7);
+        opacity: 1;
+        font-size: 10px;
+    }
+    100%{
+        transform: scale(3);
+        opacity: 0;
+        font-size: 35px;
+    }
+}
