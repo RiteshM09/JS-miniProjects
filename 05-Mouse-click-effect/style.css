@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+html, body {
+    /* 1. Removes the default flashing highlight on mobile taps */
+    -webkit-tap-highlight-color: transparent;
+    /* 2. Prevents the screen from accidentally scrolling or shifting on rapid taps */
+    touch-action: manipulation; 
+    /* 3. Prevents layout shifts outside the visible mobile screen boundaries */
+    overflow: hidden; 
+}
 
 body{
     position: relative;
