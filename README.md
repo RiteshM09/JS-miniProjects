@@ -12,7 +12,7 @@ Here is the directory of my projects. You can click the links under the **Live D
 | 02 | 🌓 Changing Theme | JS Class List, Event Object, DOM Event Handling | [Launch App ↗](https://riteshm09.github.io/JS-miniProjects//02-theme-changer/) |
 | 03 | 🕒 Digital Clock | JavaScript Date Object, setInterval, Time Formatting | [Launch App ↗](https://riteshm09.github.io/JS-miniProjects/03-digital-clock/) |
 | 04 | ⏳ Event Countdown Timer | Date & time Math, clearInterval, Input Handling| [Launch App ↗](https://riteshm09.github.io/JS-miniProjects/04-Countdown-Timer/) |
-| 05 | 📝 Project 5 (Coming Soon) | Coming Soon | Coming Soon |
+| 05 | 🖱️ Mouse Click Effect | Dynamic Element Creation, CSS Animations,Event Objects(Event Coordinates) | [Launch App ↗](https://riteshm09.github.io/JS-miniProjects/05-Mouse-click-effect/)
 
 --- 
 
