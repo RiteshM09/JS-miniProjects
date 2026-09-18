@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-main">
+        <h1>MY TO DO LIST📝</h1>
+        <form>
+           <input type="text" name="task" id="task" maxlength="30" placeholder="Add a new task...">
+           <button id="btnAdd" type="submit">Add Task</button>
+           
+        </form>
+        <!-- insert this tasks appers dynamically(via js)-->
+        <ul id="allTask">
+            <!-- add task dynamically-->
+            <!-- <li>
+                <span></span>
+                <div id="btns">
+                    <button id="btnDone">DONE</button>
+                    <button id="btnDel">DELETE</button>
+                </div>    
+            </li> -->
+        </ul>
+    </div>  
+
+    <script src="script.js"></script>
+</body>
+</html> 
