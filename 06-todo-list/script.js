@@ -55,7 +55,7 @@ targetUl.addEventListener('click',(e)=>{
         // console.log(btnContent);
         const spanTag = btnContent.querySelector("span");
         // console.log(spanTag);
-        spanTag.classList.add("completed-task");
+        spanTag.classList.toggle("completed-task");
         
      }
 })
