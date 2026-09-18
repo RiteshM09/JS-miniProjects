@@ -13,7 +13,7 @@ Here is the directory of my projects. You can click the links under the **Live D
 | 03 | 🕒 Digital Clock | JavaScript Date Object, setInterval, Time Formatting | [Launch App ↗](https://riteshm09.github.io/JS-miniProjects/03-digital-clock/) |
 | 04 | ⏳ Event Countdown Timer | Date & time Math, clearInterval, Input Handling| [Launch App ↗](https://riteshm09.github.io/JS-miniProjects/04-Countdown-Timer/) |
 | 05 | 🖱️ Mouse Click Effect | Dynamic Element Creation, CSS Animations,Event Objects(Event Coordinates) | [Launch App ↗](https://riteshm09.github.io/JS-miniProjects/05-Mouse-click-effect/)
-
+| 06 | 📋 Todo List | Event Delegation (`closest`), Limit Validation, ClassList | [Launch App ↗](https://riteshm09.github.io/JS-miniProjects/06-todo-list/) |
 --- 
 
 ## 🛠️ How to Run These Projects Locally
